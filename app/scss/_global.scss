@@ -1,0 +1,14 @@
+body {
+  font-size: $fs-sm;
+  font-style: normal;
+  font-weight: $fw-regular;
+  line-height: 1.5;
+  color: $dark-500;
+  background-color: $white;
+}
+
+.container {
+  max-width: 1320px;
+  margin:  0 auto;
+  padding: 0 15px;
+}
