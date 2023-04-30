@@ -2,3 +2,37 @@
 @import 'fonts';
 @import 'reset';
 @import 'global';
+
+.header {
+  padding-top: 25px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+
+  &__link {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #000;
+
+    &:hover {
+      color: #d36464;
+    }
+  }
+}
+
+.logo {
+  font-size: 35px;
+}
